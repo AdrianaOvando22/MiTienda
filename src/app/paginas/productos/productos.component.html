@@ -1,0 +1,10 @@
+<section class="productosSection">
+  <div class="productosContainer"> 
+    <div *ngFor="let producto of datos" class="producto">
+      <app-detalle-producto [titulo]="producto.title" [precio]="producto.price" [imagen]="producto.image"
+        (clic)="mostrar($event)"></app-detalle-producto>
+    </div>
+  
+  </div>
+  
+</section>

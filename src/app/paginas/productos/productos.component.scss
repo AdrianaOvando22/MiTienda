@@ -1,0 +1,19 @@
+
+.productosSection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    // flex-wrap: wrap;
+}
+
+
+.productosContainer {
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+

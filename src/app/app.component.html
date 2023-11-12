@@ -1,0 +1,27 @@
+<header>
+  <div class="EspacioLogo">
+    <img class="LogoImagen" src="../assets/Img/LogoActual.png" alt="ImagenLogo">
+  </div>
+  <nav class="Navegador">
+    <ul class="Opciones">
+      <li>
+        <a class="OpcionNavegador" [routerLink]="['Inicio']">
+          Inicio
+        </a>
+      </li>
+      <li>
+        <a class="OpcionNavegador" [routerLink]="['Productos']">
+          Productos
+        </a>
+      </li>
+      <li>
+        <a class="OpcionNavegador"  [routerLink]="['Contactos']">
+          Contactos
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+
+</header>
+<router-outlet></router-outlet>

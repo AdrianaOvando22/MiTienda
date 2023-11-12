@@ -1,0 +1,46 @@
+header {
+    height: 90px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    position: relative;
+    border-bottom: 1px solid rgba(212, 1, 1, .164);
+    margin-bottom: 30px;
+    z-index: 100;
+    display: flex;
+    width: 100%;
+}
+
+.EspacioLogo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.Opciones {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+}
+
+.Navegador {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.LogoImagen {
+    width: 165px;
+    height: 100%;
+}
+
+.OpcionNavegador{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
