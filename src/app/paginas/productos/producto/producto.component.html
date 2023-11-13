@@ -1,1 +1,17 @@
-<p>producto works!</p>
+<section class="ProductoSection">
+    <div class="espacioButtonAtras">
+
+        <button class="buttontAtras" (click)="goBack()">🡸 Volver</button>
+    </div>
+    <div class="ProductoContainer">
+        <div class="imagenContainer">
+            <img class="imagenProd" src="{{producto?.image}}" alt="imagenProd">
+        </div>
+        <div class="infoProduct">
+            <h2 class="titulo">{{producto?.title}}</h2>
+            <p class="categoria">* {{producto?.category}}</p>
+            <p class="descripcion">{{producto?.description}}</p>
+            <p class="precio">${{producto?.price}}</p>
+        </div>
+    </div>
+</section>
