@@ -6,6 +6,7 @@ import {Component, EventEmitter, Input, Output} from '@angular/core';
   styleUrls: ['./detalle-producto.component.scss']
 })
 export class DetalleProductoComponent {
+  @Input() id: string = '';
   @Input() imagen: string = '';
   @Input() titulo: string = '';
   @Input() precio: string = '';

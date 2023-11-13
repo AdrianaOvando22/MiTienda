@@ -8,6 +8,7 @@ import { ProductosComponent } from './paginas/productos/productos.component';
 import { ContactoComponent } from './paginas/contacto/contacto.component';
 import {HttpClientModule} from "@angular/common/http";
 import { DetalleProductoComponent } from './elementos/detalle-producto/detalle-producto.component';
+import { ProductoComponent } from './paginas/productos/producto/producto.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DetalleProductoComponent } from './elementos/detalle-producto/detalle-p
     InicioComponent,
     ProductosComponent,
     ContactoComponent,
-    DetalleProductoComponent
+    DetalleProductoComponent,
+    ProductoComponent
   ],
   imports: [
     BrowserModule,
