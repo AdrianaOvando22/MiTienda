@@ -1,4 +1,5 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-detalle-producto',
@@ -14,8 +15,9 @@ export class DetalleProductoComponent {
   @Output() clic = new EventEmitter<string>();
 
 
-
+  constructor(private router: Router) {}
   verProducto(){
-    this.clic.emit('HOLA MUNDO')
+    this.clic.emit(this.titulo)
+    this.router.navigate(['/productos/producto/', this.id]);
   }
 }
